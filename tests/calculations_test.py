@@ -64,6 +64,11 @@ def test_get_nth_fibonacci_one():
     n = 10
 
 #     # Act
+    """Test with n=10."""
+    # Arrange
+    n = 10
+
+     # Act
     result = get_nth_fibonacci(n)
 
 #     # Assert
