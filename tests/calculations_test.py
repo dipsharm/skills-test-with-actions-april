@@ -65,6 +65,7 @@ def test_get_nth_fibonacci_one():
 
      # Act
     result = get_nth_fibonacci(n)
+     assert result == 55
 
 #     # Assert
     assert result == 89
